@@ -113,13 +113,3 @@ class RealGA:
             best_fs.append(min_f)
         
         return np.array(bests), np.array(best_fs)
-
-if __name__ == '__main__':
-    def f(xs):
-        fs = []
-        for xi in xs: # itera por individuo
-            fs.append(xi[0]**2+xi[1]**2+xi[2]**2+xi[3]**2)
-        return fs
-    
-    test = RealGA(nv=4, ni=10, f=f, pm=1/10)
-    bests, best_fs = test.train_estb(gens=150)
