@@ -1,5 +1,5 @@
 # Real-Valued-Genetic-Algorithm
-In this repository it is implemented a real-valued genetic algorithm in python to minimize objective functions. All operators are implemented into a single class  to facilitate the understanding of the algorithm.
+In this repository it is implemented a real-valued genetic algorithm in python to minimize objective functions. All operators are implemented into a single class  to facilitate the understanding of the algorithm c:
 
 ## Method description
 The implemented algorithm consists of three operators: binary tournament, crossover and mutation. Which imitates the natural selection mechanism.
